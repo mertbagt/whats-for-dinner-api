@@ -28,7 +28,7 @@ app.use('/dishes', dishesRouter)
 app.use('/assignments', assignmentsRouter)
 
 app.get('/', (req, res) => {
-    res.send('Hello, world!')
+    res.send('Hello, World!')
 })
 
 app.use(function errorHandler(error, req, res, next) {
