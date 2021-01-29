@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-const DaysService = require('./days-service')
+const DaysService = require('./days/days-service')
 
 const express = require('express')
 const morgan = require('morgan')
